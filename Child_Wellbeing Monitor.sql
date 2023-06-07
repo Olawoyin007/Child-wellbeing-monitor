@@ -6,7 +6,6 @@ CREATE DATABASE Olawoyin_Coursework;
 
 --Transforming India dataset into India Table using Data-dictionary
 select
-
 --main
 childid 'Child ID',
 
