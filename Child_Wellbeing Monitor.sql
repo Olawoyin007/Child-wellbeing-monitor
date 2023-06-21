@@ -93,6 +93,7 @@ iif(chhprob=1, 'Yes','No') 'Longterm_health_problem',
 
 iif(chdisability=1, 'Yes','No') 'Permanent_Disability',
 
+	
 case
 	when chhealth=1 then replace(chhealth,1,'Very Poor')
 	when chhealth=2 then replace(chhealth,2,'Poor')
@@ -321,7 +322,7 @@ male61+male1860 'Male_Adults in Household',
 female05+female612+female1317 'Female_Kids in Household',
 
 female1860+female61 'Female_Adults in Household',
-
+------------------------------------------------------
 
 iif(preprim=1,'Yes',iif(preprim=0,'No', null)) 'Pre-primary school',
 
